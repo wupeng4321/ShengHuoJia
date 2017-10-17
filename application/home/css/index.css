@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bannerDiv {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bannerDiv ul{
+    width: 3500px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    padding: 0px;
+}
+
+.bannerDiv ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.bannerDiv ul li img {
+    width: 700px;
+    height: 400px;
+}

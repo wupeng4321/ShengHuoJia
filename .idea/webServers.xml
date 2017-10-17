@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e47d73cb-9a88-4384-b535-cee8df6257ef" name="shenghuojia" url="http://localhost/WebstormProjects/ShengHuoJia">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>

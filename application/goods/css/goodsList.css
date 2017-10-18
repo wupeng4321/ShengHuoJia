@@ -11,25 +11,57 @@
 
 }
 
-.goodsListcontentDiv .goodsListcontent .good {
-    padding: 10px 2px 2px;
+.goodsListcontentDiv .goodsListcontent .goodDiv {
     width: 50%;
     background-color: #003eff;
     border-color: red;
     border-width: 2px;
-    position: relative;
+    float: left;
+}
+
+
+/*li:nth-child(4n+1){*/
+    /*background-color: red;*/
+/*}*/
+/*li:nth-child(4n+2){*/
+    /*background-color: green;*/
+/*}*/
+/*li:nth-child(4n+3){*/
+    /*background-color: yellow;*/
+/*}*/
+/*li:nth-child(4n+4){*/
+    /*background-color: blueviolet;*/
+/*}*/®
+
+/*odd 为奇数, even为偶数*/
+/*li:nth-child(even){*/
+    /*background-color: greenyellow;*/
+/*}*/
+/*倒序*/
+/*li:nth-last-child(even){*/
+/*background-color: greenyellow;*/
+/*}*/
+
+.goodsListcontentDiv .goodsListcontent .goodDiv .good:nth-of-type(odd){
+    padding: 0px 2px 0px 4px;
+    background-color: gold;
+    border-color: red;
+    border-width: 2px;
+    float: left;
+}
+
+.goodsListcontentDiv .goodsListcontent .goodDiv .good:nth-of-type(even){
+    padding: 0px 4px 0px 2px;
+    background-color: gold;
+    border-color: red;
+    border-width: 2px;
+    float: left;
 }
 
 
 
-
-/*.goodsListcontentDiv .goodsListcontent {*/
-    /*height: 100px;*/
-    /*background-color: gray;*/
-    /*list-style-type: none;*/
-/*}*/
-.goodsListcontentDiv .goodsListcontent .good img {
+.goodsListcontentDiv .goodsListcontent .goodDiv .good img {
     width: 100%;
-    height: 20px;
+    height: 100px;
 }
 

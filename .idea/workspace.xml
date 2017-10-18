@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34d5f6e7-e22c-4f79-a261-6da988bf1ed7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/goods/css/goodsList.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/goods/js/goodsList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/js/url.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/goods/css/goodsList.css" afterPath="$PROJECT_DIR$/application/goods/css/goodsList.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/goods/goodsList.html" afterPath="$PROJECT_DIR$/application/goods/goodsList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/home/index.html" afterPath="$PROJECT_DIR$/application/home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/home/js/index.js" afterPath="$PROJECT_DIR$/application/home/js/index.js" />
     </list>
     <ignored path="ShengHuoJia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +94,7 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/home/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="90">
               <caret line="6" column="16" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
@@ -108,8 +104,8 @@
       <file leaf-file-name="goodsList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/goods/goodsList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -128,8 +124,8 @@
       <file leaf-file-name="goodsList.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/goods/css/goodsList.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="337">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -176,10 +172,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="831" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -206,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -423,7 +419,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,15 +533,19 @@
       <workItem from="1508296194623" duration="2133000" />
       <workItem from="1508301552911" duration="1191000" />
       <workItem from="1508312696221" duration="4654000" />
-      <workItem from="1508320082936" duration="719000" />
+      <workItem from="1508320082936" duration="2357000" />
+      <workItem from="1508323664651" duration="77000" />
+      <workItem from="1508324117748" duration="6000" />
+      <workItem from="1508324144236" duration="10000" />
+      <workItem from="1508324233092" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24273000" />
+    <option name="totallyTimeSpent" value="26216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="24" width="1440" height="831" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17847222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -933,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/goods/js/goodsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -951,24 +942,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/home/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="90">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/goods/js/goodsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/goods/goodsList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/goods/css/goodsList.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="337">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
           <folding />
         </state>
       </provider>

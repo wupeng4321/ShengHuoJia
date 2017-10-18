@@ -21,6 +21,8 @@
 .footer ul li a {
     text-align: center;
     text-decoration: none;
+    line-height: 49px;
+    
 }
 .footer ul li:hover {
     background-color: gray;

@@ -2,15 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+
 .bannerDiv {
-    width: 700px;
-    height: 400px;
+    width: 360px;
+    height: 200px;
     position: relative;
     overflow: hidden;
 }
 
 .bannerDiv ul{
-    width: 3500px;
+    width: 2000px;
     height: 400px;
     position: absolute;
     left: 0px;
@@ -23,6 +24,35 @@
 }
 
 .bannerDiv ul li img {
-    width: 700px;
-    height: 400px;
+    width: 360px;
+    height: 200px;
+}
+
+.category {
+    position: relative;
+    width: 360px;
+    height: auto;
+    background-color: gray;
+}
+
+.category ul{
+    width: 360px;
+    padding: 0px;
+    left: 0px;
+}
+
+.category ul li{
+    float: left;
+    padding: 0px 2px 0px;
+    width: 86px;
+    height: 100px;
+    background-color: azure;
+    list-style-type: none;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+.category ul li a {
+    text-decoration: none;
 }

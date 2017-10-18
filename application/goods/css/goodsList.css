@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.goodsListcontentDiv {
+    width: 360px;
+    height: auto;
+    background-color: #c5c5c5;
+}
+.goodsListcontentDiv .goodsListcontent {
+
+}
+
+.goodsListcontentDiv .goodsListcontent .good {
+    padding: 10px 2px 2px;
+    width: 50%;
+    background-color: #003eff;
+    border-color: red;
+    border-width: 2px;
+    position: relative;
+}
+
+
+
+
+/*.goodsListcontentDiv .goodsListcontent {*/
+    /*height: 100px;*/
+    /*background-color: gray;*/
+    /*list-style-type: none;*/
+/*}*/
+.goodsListcontentDiv .goodsListcontent .good img {
+    width: 100%;
+    height: 20px;
+}
+

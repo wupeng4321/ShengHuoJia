@@ -4,7 +4,7 @@
 $(document).ready(function () {
 
 
-    // 用于轮播图
+    // ************************用于轮播图begin************************
     var ulDom = $(".bannerDiv>ul");
     var leftNum = parseInt(ulDom.css("left"));
     var width = parseInt($(".bannerDiv>ul>li>img").css("width"));
@@ -27,12 +27,18 @@ $(document).ready(function () {
     ulDom.mouseout(function () {
         timerLeft = setInterval(left, 2500);
     });
+    // ************************用于轮播图end************************
 
-    //用于类目点击
+
+    // ************************用于类目begin************************
+    $(".category>ul").append("<li href = \"../goods/goodsList.html?type=4\">wupeng</li>");
     var liDom = $(".category>ul>li");
     liDom.click(function () {
-        alert($(this).index());
+        // alert($(this).index());
         liDom.attr("href","../goods/goodsList.html?type=3");
+        window.location.href = "../goods/goodsList.html?type=3";
     });
 
+
+    // ************************用于类目end************************
 });

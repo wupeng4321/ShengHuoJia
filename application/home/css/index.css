@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+#container {
+    width: 100%;
+    /*padding: 0 5% 0;*/
+    overflow: hidden;
+}
 
 .bannerDiv {
     width: 360px;

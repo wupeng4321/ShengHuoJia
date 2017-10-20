@@ -15,7 +15,7 @@
     width: 50%;
     background-color: #003eff;
     border-color: red;
-    border-width: 2px;
+    /*border-width: 2px;*/
     float: left;
 }
 
@@ -31,7 +31,7 @@
 /*}*/
 /*li:nth-child(4n+4){*/
     /*background-color: blueviolet;*/
-/*}*/®
+/*}*/
 
 /*odd 为奇数, even为偶数*/
 /*li:nth-child(even){*/
@@ -42,26 +42,36 @@
 /*background-color: greenyellow;*/
 /*}*/
 
-.goodsListcontentDiv .goodsListcontent .goodDiv .good:nth-of-type(odd){
-    padding: 0px 2px 0px 4px;
+.goodsListcontentDiv .goodsListcontent .goodDiv .good{
+    /*padding: 0px 2px 0px 4px;*/
     background-color: gold;
     border-color: red;
-    border-width: 2px;
+    /*border-width: 2px;*/
     float: left;
 }
 
-.goodsListcontentDiv .goodsListcontent .goodDiv .good:nth-of-type(even){
-    padding: 0px 4px 0px 2px;
-    background-color: gold;
-    border-color: red;
-    border-width: 2px;
-    float: left;
-}
+/*.goodsListcontentDiv .goodsListcontent .goodDiv .good:nth-of-type(even){*/
+    /*!*padding: 0px 4px 0px 2px;*!*/
+    /*background-color: gold;*/
+    /*border-color: red;*/
+    /*!*border-width: 2px;*!*/
+    /*float: left;*/
+/*}*/
 
-
-
-.goodsListcontentDiv .goodsListcontent .goodDiv .good img {
+.goodsListcontentDiv .goodsListcontent .goodDiv .good img:nth-child(1) {
     width: 100%;
     height: 100px;
+}
+.goodsListcontentDiv .goodsListcontent .goodDiv .good .goodprice {
+    width: 180px;
+    height: auto;
+}
+.goodsListcontentDiv .goodsListcontent .goodDiv .good .gooddetail {
+    color: red;
+}
+.goodsListcontentDiv .goodsListcontent .goodDiv .good img:nth-child(2) {
+    width: 18px;
+    height: 18px;
+    float: left;
 }
 
